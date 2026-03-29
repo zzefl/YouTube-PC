@@ -1,0 +1,17 @@
+{
+  "name": "YouTube-PC",
+  "version": "1.0.0",
+  "description": "YouTube for PC",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.myuser.ytmusic",
+    "win": {
+      "target": "nsis",
+      "icon": "YT.ico"
+    }
+  }
+}
